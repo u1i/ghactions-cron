@@ -1,9 +1,8 @@
-name: CR
+name: Publish podcast episode
 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
-    - cron:  '*/5 * * * *'
+      - cron: '51 * * * *'
 
 jobs:
   stuff:
